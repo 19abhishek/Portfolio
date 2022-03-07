@@ -1,0 +1,14 @@
+.gradientText {
+  font: bold 72px Poppins, sans-serif;
+  background-image: linear-gradient(80deg, #e21143, #ffb03a);
+  background-clip: text;
+  color: transparent;
+}
+
+/* @supports (background-clip: text) {
+  .gradient-text {
+    background-image: linear-gradient(60deg, #e21143, #ffb03a);
+    background-clip: text;
+    color: transparent;
+  }
+} */
