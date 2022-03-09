@@ -8,6 +8,7 @@ import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
+import Link from "next/link";
 
 const spring = {
   type: "spring",
@@ -31,13 +32,15 @@ function Header() {
         <Image src={abhishekLogo} height={120} width={120} />
       </div>
       <div className="dark:text-white flex items-center space-x-3">
-        <div>playground.</div>
         <div>
-          <a href="https://github.com/19abhishek" target="_blank">
-            about.
-          </a>
+          <Link href="/">home.</Link>
         </div>
-        <div className="!dark:text-white ">projects.</div>
+        <div>
+          <Link href="/playground">playground.</Link>
+        </div>
+        <div className="">
+          <Link href="/projects">projects.</Link>
+        </div>
         <div>
           <a
             href="https://drive.google.com/file/d/1WfNwUXv9G5clRh91lslOaO0dTDK6PStw/view"
