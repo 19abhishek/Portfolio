@@ -32,16 +32,17 @@ function Header() {
         <Image src={abhishekLogo} height={120} width={120} />
       </div>
       <div className="dark:text-white flex items-center space-x-3">
-        <div>
+        <div className="headerText opacity-90">
           <Link href="/">home.</Link>
         </div>
-        <div>
-          <Link href="/playground">playground.</Link>
-        </div>
-        <div className="">
+
+        <div className="headerText opacity-90">
           <Link href="/projects">projects.</Link>
         </div>
-        <div>
+        <div className="headerText opacity-90">
+          <Link href="/playground">playground.</Link>
+        </div>
+        <div className="headerText opacity-90">
           <a
             href="https://drive.google.com/file/d/1QDigTza5VdUg-p-VaFu6xX2O6XxRMaFv/view"
             target="_blank"

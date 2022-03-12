@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .headerText {
+    @apply hover:underline hover:transition-all hover:duration-200 hover:opacity-70;
+  }
+}
