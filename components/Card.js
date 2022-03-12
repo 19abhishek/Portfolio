@@ -1,9 +1,10 @@
 import React from "react";
+import Image from "next/image";
 
-function Card() {
+function Card({ text }) {
   return (
-    <div className="w-[32rem] h-[18rem] flex justify-between border-cyan-300 bg-slate-200 text-gray-800 rounded-xl">
-      Card
+    <div className="w-[32rem] h-[18rem] flex justify-between  bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-xl hover:-translate-y-2 hover:transition-all cursor-pointer hover:transition-duration-[1000ms]">
+      {text}
     </div>
   );
 }

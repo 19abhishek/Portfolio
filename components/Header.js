@@ -28,8 +28,10 @@ function Header() {
 
   return (
     <div className="p-4 flex items-center justify-between">
-      <div className="">
-        <Image src={abhishekLogo} height={120} width={120} />
+      <div className="cursor-pointer">
+        <Link href="/">
+          <Image src={abhishekLogo} height={120} width={120} />
+        </Link>
       </div>
       <div className="dark:text-white flex items-center space-x-3">
         <div className="headerText opacity-90">
