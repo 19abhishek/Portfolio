@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import "../styles/Card.css";
 
 import { ThemeProvider } from "next-themes";
 
