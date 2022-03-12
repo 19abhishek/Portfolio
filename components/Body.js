@@ -20,7 +20,7 @@ function Body() {
         Bringing designs to life
       </div>
       <div className={`${styles.gradientText} text-center`}>{currWord}</div>
-      <div className="text-[1.8rem] text-gray-200 dark:text-gray-800 leading-10 leading-8 text-center mt-8">
+      <div className="text-[1.8rem] text-gray-200 dark:text-gray-200 leading-10 leading-8 text-center mt-8">
         Hello, I'm Abhishek. Welcome to my digital garden where I share my
         learnings and the stuff that I make.
         <br /> I am a self taught developer and I love building websites which

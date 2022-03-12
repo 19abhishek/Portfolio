@@ -23,8 +23,8 @@ function Header() {
   useEffect(() => {
     setMounted(true);
   }, []);
-  if (!mounted) return null;
-  console.log("Current theme is ", theme);
+  // if (!mounted) return null;
+  // console.log("Current theme is ", theme);
 
   return (
     <div className="p-4 flex items-center justify-between">
@@ -43,7 +43,7 @@ function Header() {
         </div>
         <div>
           <a
-            href="https://drive.google.com/file/d/1WfNwUXv9G5clRh91lslOaO0dTDK6PStw/view"
+            href="https://drive.google.com/file/d/1QDigTza5VdUg-p-VaFu6xX2O6XxRMaFv/view"
             target="_blank"
           >
             resume.

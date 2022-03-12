@@ -1,7 +1,13 @@
 import React from "react";
+import Header from "../components/Header";
 
 function projects() {
-  return <div>projects</div>;
+  return (
+    <>
+      <Header />
+      <div>projects</div>
+    </>
+  );
 }
 
 export default projects;
