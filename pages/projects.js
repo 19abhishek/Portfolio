@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
 import styles from "../components/Body.module.css";
+import Fit from "../Image/Project-Image/FIT-IN.png";
+import data from "../components/Data";
 
 function projects() {
   return (
@@ -13,12 +15,15 @@ function projects() {
         projects.
       </div>
       <div className="grid grid-cols-2 place-items-center gap-8 space-between mb-14">
+        {data.map((cData) => {
+          return <Card key={cData.id} img={cData.src} text={cData.title} />;
+        })}
+        {/* <Card img={Fit} text={"Fitness Website"} />
         <Card />
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
+        <Card /> */}
       </div>
       <Footer />
     </>

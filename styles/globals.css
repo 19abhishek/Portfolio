@@ -4,6 +4,6 @@
 
 @layer components {
   .headerText {
-    @apply hover:underline hover:transition-all hover:duration-200 hover:opacity-70;
+    @apply hover:underline hover:transition-all hover:duration-200 hover:opacity-70 hover:text-orange-300;
   }
 }
