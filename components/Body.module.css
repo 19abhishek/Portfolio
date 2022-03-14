@@ -6,7 +6,7 @@
 }
 
 .gradientTextSmall {
-  font: bold 3.6rem Poppins, sans-serif;
+  font: bold 1.8rem Poppins, sans-serif;
   background-image: linear-gradient(20deg, #e21143, #ffb03a);
   background-clip: text;
   color: transparent;

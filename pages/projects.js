@@ -16,7 +16,14 @@ function projects() {
       </div>
       <div className="grid grid-cols-2 place-items-center gap-8 space-between mb-14">
         {data.map((cData) => {
-          return <Card key={cData.id} img={cData.src} text={cData.title} />;
+          return (
+            <Card
+              key={cData.id}
+              img={cData.src}
+              text={cData.title}
+              link={cData.link}
+            />
+          );
         })}
         {/* <Card img={Fit} text={"Fitness Website"} />
         <Card />
