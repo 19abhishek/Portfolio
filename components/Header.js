@@ -35,62 +35,13 @@ function Header() {
         </Link>
       </div>
       <div className="dark:text-white flex items-center space-x-3">
-        <>
-          <div class="">
-            <div class="grid gap-8 items-start justify-center">
-              <div class="relative group">
-                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                <button class="relative px-2 py-2 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-                  <span class="text-black-400 hover:text-orange-400  transition duration-200">
-                    <Link href="/">home.</Link>
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </>
-        <>
-          <div class="">
-            <div class="grid gap-8 items-start justify-center">
-              <div class="relative group">
-                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                <button class="relative px-2 py-2 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-                  <span class="text-black-400 hover:text-orange-400  transition duration-200">
-                    <Link href="/projects">projects.</Link>
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </>
-        <>
-          <div class="">
-            <div class="grid gap-8 items-start justify-center">
-              <div class="relative group">
-                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                <button class="relative px-2 py-2 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-                  <span class="text-black-400 hover:text-orange-400  transition duration-200">
-                    <Link href="/playground">blogs.</Link>
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </>
-        <>
-          <div class="">
-            <div class="grid gap-8 items-start justify-center">
-              <div class="relative group">
-                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                <button class="relative px-2 py-2 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-                  <span class="text-black-400 hover:text-orange-400  transition duration-200">
-                    <Link href="/playground">blogs.</Link>
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </>
+        {/* <Link href="/"></Link> */}
+        <HeaderLink path={"/"} name={"home"} />
+        <HeaderLink path={"/projects"} name={"projects"} />
+        <HeaderLink path={"/playground"} name={"blogs"} />
+        {/* <Link href="/projects"></Link>
+        <Link href="/playground"></Link> */}
+
         {/* <div className="headerText opacity-90"></div> */}
 
         {/* <div className="headerText opacity-90"></div>
