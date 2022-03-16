@@ -25,12 +25,6 @@ function projects() {
             />
           );
         })}
-        {/* <Card img={Fit} text={"Fitness Website"} />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card /> */}
       </div>
       <Footer />
     </>

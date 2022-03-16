@@ -17,7 +17,7 @@ const data = [
     id: 2,
     src: Spotify,
     title: "Spotify Redesign",
-    description: "Fitness Startup Landing Page",
+    description: "A redesign of Spotify",
     link: "https://spotify-clone-19abhishek.vercel.app/",
   },
   {

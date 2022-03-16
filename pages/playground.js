@@ -10,7 +10,7 @@ function playground() {
       <Header />
       <div className={`${styles.gradientTextSmall} text-center mb-8`}>
         {" "}
-        playground.
+        blogs.
       </div>
       <div className="text-center text-2xl bold mt-8 mb-8">
         this page is still under construction :(

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./Body.module.css";
 
-function Card({ img, text, link }) {
+function Card({ img, text, link, desc }) {
   const cImg = img;
   if (!img) {
     return (
@@ -15,7 +15,7 @@ function Card({ img, text, link }) {
         <Image
           src={img}
           layout="fill"
-          className="object-cover rounded-xl z-0 opacity-40 hover:opacity-20"
+          className="object-cover rounded-xl z-0 opacity-40 hover:opacity-10"
         />
         <div
           className={`absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] justify-center z-10 font-bold text-xl ${styles.gradientTextSmall}`}

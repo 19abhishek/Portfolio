@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import Link from "next/link";
+import HeaderLink from "./HeaderLink";
 
 const spring = {
   type: "spring",
@@ -34,16 +35,66 @@ function Header() {
         </Link>
       </div>
       <div className="dark:text-white flex items-center space-x-3">
-        <div className="headerText opacity-90">
-          <Link href="/">home.</Link>
-        </div>
+        <>
+          <div class="">
+            <div class="grid gap-8 items-start justify-center">
+              <div class="relative group">
+                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                <button class="relative px-2 py-2 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                  <span class="text-black-400 hover:text-orange-400  transition duration-200">
+                    <Link href="/">home.</Link>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </>
+        <>
+          <div class="">
+            <div class="grid gap-8 items-start justify-center">
+              <div class="relative group">
+                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                <button class="relative px-2 py-2 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                  <span class="text-black-400 hover:text-orange-400  transition duration-200">
+                    <Link href="/projects">projects.</Link>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </>
+        <>
+          <div class="">
+            <div class="grid gap-8 items-start justify-center">
+              <div class="relative group">
+                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                <button class="relative px-2 py-2 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                  <span class="text-black-400 hover:text-orange-400  transition duration-200">
+                    <Link href="/playground">blogs.</Link>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </>
+        <>
+          <div class="">
+            <div class="grid gap-8 items-start justify-center">
+              <div class="relative group">
+                <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                <button class="relative px-2 py-2 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                  <span class="text-black-400 hover:text-orange-400  transition duration-200">
+                    <Link href="/playground">blogs.</Link>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </>
+        {/* <div className="headerText opacity-90"></div> */}
 
-        <div className="headerText opacity-90">
-          <Link href="/projects">projects.</Link>
-        </div>
-        <div className="headerText opacity-90">
-          <Link href="/playground">playground.</Link>
-        </div>
+        {/* <div className="headerText opacity-90"></div>
+        <div className="headerText opacity-90"></div> */}
         <div className="headerText opacity-90">
           <a
             href="https://drive.google.com/file/d/1QDigTza5VdUg-p-VaFu6xX2O6XxRMaFv/view"
