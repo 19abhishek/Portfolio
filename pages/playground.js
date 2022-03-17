@@ -17,9 +17,18 @@ function playground() {
         this page is still under construction :(
       </div> */}
       <div className="grid place-items-center gap-8 space-between mb-14">
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
+        <a
+          href="https://abhishek19.hashnode.dev/call-apply-and-bind-in-javascript"
+          target="_blank"
+        >
+          <BlogCard text={"Understanding call, apply and bind in JS"} />
+        </a>
+        <a href="https://abhishek19.hashnode.dev/hooks-and-rules-of-hooks">
+          <BlogCard text={"Hooks and rules of hooks"} />
+        </a>
+        <a href="https://abhishek19.hashnode.dev/redux-and-redux-toolkit-simply-explained">
+          <BlogCard text={"Redux and Redux toolkit - simply explained."} />
+        </a>
       </div>
       <Footer />
     </>

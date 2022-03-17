@@ -31,7 +31,9 @@ function Body() {
           both functional and aesthetic.
         </div>
       </div>
-      <Button text={"Say Hi!"} />
+      <a href="mailto:abhishek.kum1908@gmail.com">
+        <Button text={"say Hello!"} />
+      </a>
     </div>
   );
 }
