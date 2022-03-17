@@ -20,13 +20,22 @@ function playground() {
         <a
           href="https://abhishek19.hashnode.dev/call-apply-and-bind-in-javascript"
           target="_blank"
+          rel="noreferrer"
         >
           <BlogCard text={"Understanding call, apply and bind in JS"} />
         </a>
-        <a href="https://abhishek19.hashnode.dev/hooks-and-rules-of-hooks">
+        <a
+          href="https://abhishek19.hashnode.dev/hooks-and-rules-of-hooks"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BlogCard text={"Hooks and rules of hooks"} />
         </a>
-        <a href="https://abhishek19.hashnode.dev/redux-and-redux-toolkit-simply-explained">
+        <a
+          href="https://abhishek19.hashnode.dev/redux-and-redux-toolkit-simply-explained"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BlogCard text={"Redux and Redux toolkit - simply explained."} />
         </a>
       </div>

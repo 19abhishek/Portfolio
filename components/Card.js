@@ -10,7 +10,7 @@ function Card({ img, text, link, desc }) {
     );
   }
   return (
-    <a href={link} target="_blank">
+    <a href={link} target="_blank" rel="noreferrer">
       <div className="w-[32rem] relative h-[18rem] flex justify-between  bg-gradient-to-r from-gray-500 to-white-500 text-white rounded-xl hover:-translate-y-2 hover:transition-all cursor-pointer hover:transition-duration-[1000ms] hover:shadow-lg hover:shadow-pink-500">
         <Image
           src={img}

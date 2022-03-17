@@ -55,12 +55,20 @@ function Header() {
           </a>
         </div>
         <div>
-          <a href="https://github.com/19abhishek" target="_blank">
+          <a
+            href="https://github.com/19abhishek"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHubIcon />
           </a>
         </div>
         <div>
-          <a href="https://twitter.com/abhishek_0819" target="_blank">
+          <a
+            href="https://twitter.com/abhishek_0819"
+            target="_blank"
+            rel="noreferrer"
+          >
             <TwitterIcon />
           </a>
         </div>
@@ -68,6 +76,7 @@ function Header() {
           <a
             href="https://www.linkedin.com/in/abhishek-kumar-3b7376187/"
             target="_blank"
+            rel="noreferrer"
           >
             <LinkedInIcon />
           </a>
