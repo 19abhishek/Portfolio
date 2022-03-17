@@ -23,8 +23,8 @@ function Body() {
       <div className={`${styles.gradientText} text-center`}>{currWord}</div>
       <div className="text-[1.8rem] dark:text-white text-center mt-8">
         <div>
-          Hello, I'm Abhishek. Welcome to my digital garden where I share my
-          learnings and the stuff that I make.
+          Hello, I&apos;m Abhishek. Welcome to my digital garden where I share
+          my learnings and the stuff that I make.
         </div>{" "}
         <div className="mt-4">
           I am a self taught developer and I love building websites which are

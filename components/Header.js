@@ -50,6 +50,7 @@ function Header() {
           <a
             href="https://drive.google.com/file/d/1QDigTza5VdUg-p-VaFu6xX2O6XxRMaFv/view"
             target="_blank"
+            rel="noreferrer"
           >
             resume.
           </a>
