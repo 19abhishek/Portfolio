@@ -14,7 +14,7 @@ function projects() {
         {" "}
         projects.
       </div>
-      <div className="grid grid-cols-2 place-items-center gap-8 space-between mb-14">
+      <div className="grid grid-cols-2 place-items-center gap-8 space-between mb-14 px-16">
         {data.map((cData) => {
           return (
             <Card

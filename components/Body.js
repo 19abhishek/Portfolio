@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Body.module.css";
+import Button from "./Button";
 
 function Body() {
   const words = ["dream.", "believe.", "achieve."];
@@ -15,7 +16,7 @@ function Body() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 p-4">
       <div className={`${styles.gradientText} text-center mt-8`}>
         Bringing designs to life
       </div>
@@ -30,6 +31,7 @@ function Body() {
           both functional and aesthetic.
         </div>
       </div>
+      <Button text={"Say Hi!"} />
     </div>
   );
 }
